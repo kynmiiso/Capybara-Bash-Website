@@ -53,6 +53,7 @@ header .logo {
 
 header ul {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -65,8 +66,10 @@ header ul li {
 header ul li a {
     text-decoration: none;
     padding: 6px 15px;
+    font-size: 1.5rem;
     color: #2b1055;
     border-radius: 20px;
+    max-width: 100%;
 }
 
 header ul li a:hover,
